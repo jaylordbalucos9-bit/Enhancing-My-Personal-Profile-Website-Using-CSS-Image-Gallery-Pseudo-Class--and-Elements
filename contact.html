@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enhancing My Personal Profile Website Using CSS Selectors</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="main-header">
+<h1>Jaylord A Balucos</h1>
+</header>
+
+<nav>
+<a class="nav-link" href="index.html">Home</a> |
+<a class="nav-link" href="about.html">About Me</a> |
+<a class="nav-link" href="hobbies.html">Hobbies</a> |
+<a class="nav-link" href="favorites.html">Favorites</a> |
+<a class="nav-link" href="goals.html">Goals</a> |
+<a class="nav-link" href="contact.html">Contact Me</a>
+</nav>
+
+<main>
+    <section>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="profile-info">
+            If you have any questions,inquiries,or would like to get in touch with me,please feel free to fill out.
+        </p>
+
+<form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="9f8d66ea-06ac-464c-9370-539f7cad07d2">
+<label>Full Name:</label>
+<input type="text" name="name" required><br><br>
+<label>Email Address:</label>
+<input type="email" name="email" required><br><br>
+<label>Gender:</label>
+<input type="radio" name="gender" value="Male">
+Male
+<input type="radio" name="gender" value="Female">
+Famale
+<br><br>
+<label>Interest:</label>
+<input type="checkbox">Cooking
+<input type="checkbox">Sports
+<input type="checkbox">sing
+<br><br>
+<label>Strand:</label>
+<Select>
+<option>ICT</option>
+<option>STEM</option>
+<option>ABM</option>
+<option>GAS</option>
+</Select>
+<br><br>
+<label>Purpose of Visit</label>
+    <select>
+    <option>General Inquiry</option>
+    <option>Feedback</option>
+    <option>Collaboration</option>
+    <option>Scholl Project</option>
+    </select>
+<br><br>
+<label>Message:</label><br>
+<textarea name="meassage" rows="5" cols="40" required></textarea><br><br>
+<button type="submit">Send Message</button>
+<input type="reset" value="Clear Form">
+</form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Contact Me</p>
+</footer>
+<a href="index.html">Go back to the first page</a>
+</body>
+</html>
